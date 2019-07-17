@@ -12,8 +12,16 @@ app.get("/mercury", function(req, res) {
 });
 
 app.get("/venus", function(req, res) {
-  res.send("This will be the Venus web page!");
+  res.render("venus.html");
 });
+
+app.get("/earth", function(req, res) {
+  res.render("earth.html");
+});
+
+app.get("/mars", function(req, res) {
+  res.render("mars.html");
+})
 //server listener
 app.listen("8081", "0.0.0.0", function(){
   console.log("Express server is Running");

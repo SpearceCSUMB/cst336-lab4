@@ -1,4 +1,17 @@
 body {
-  background-color: #CBE2F6;
   text-align: center;
+  color: white;
+}
+.container {
+  font-size: 25px;
+}
+footer {
+  font-size: 20px;
+}
+.line {
+  border: 5px solid #222222;
+  border-radius: 2px;
+}
+img.rounded-corners {
+  border-radius: 30px;
 }
